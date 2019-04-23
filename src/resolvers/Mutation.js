@@ -31,7 +31,7 @@ async function login(parent, args, context, info) {
         throw new Error('No such user found')
     }
 
-    const valid = await bcrypt.compar(args.password, user.password)
+    const valid = await bcrypt.compare(args.password, user.password)
     if (!valid) {
         throw new Error('Invalid password')
     }

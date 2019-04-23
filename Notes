@@ -2,3 +2,5 @@ Prisma, GraphQL, Node.js
 made with yarn NOT NPM
 followed this tutorial:
 https://www.howtographql.com/graphql-js/4-adding-a-database/
+
+stuck on mutation and subscription
